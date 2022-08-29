@@ -10,10 +10,19 @@ import java.util.List;
  * @author falvojr
  */
 public class Usuario {
-	
+
+	private String nome;
 	private String email;
 	private String senha;
 	private List<Contato> contatos = new ArrayList<>();
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
 	public String getEmail() {
 		return email;
